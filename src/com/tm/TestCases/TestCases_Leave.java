@@ -15,6 +15,7 @@ public class TestCases_Leave extends BaseClass {
 	public void TC101_verifyLoginFunctionality() {
 		
 		//String[] data = ReadRowData(CurrentTestCaseName);
+		System.out.println("Hi");
 		
 		// Create the page pattern to Login Page
 		Login login = PageFactory.initElements(driver, Login.class);
